@@ -1,23 +1,16 @@
 {
-  "name": "rem-level-api",
-  "version": "0.1.0",
-  "description": "A simple image api with pluggable backends",
-  "main": "index.js",
+  "name": "katara",
+  "version": "0.0.1",
+  "description": "Level service",
+  "main": "src/index.js",
+  "repository": "git@github.com:weeb-services/katara.git",
+  "author": "Wolke <wolke@weeb.sh>",
+  "contributors": [
+    "TheAkio <me@theak.io>"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.16.2",
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.3",
-    "docker-config-loader": "^1.0.0",
-    "express": "^4.15.3",
-    "mongoose": "^4.10.4",
-    "redis": "^2.7.1",
-    "tsubaki": "^1.1.0",
-    "winston": "^2.3.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Wolke <wolke@ram.moe>",
-  "license": "MIT"
+    "mongoose": "^4.11.5",
+    "wapi-core": "git+https://github.com/weeb-services/wapi-core.git"
+  }
 }
